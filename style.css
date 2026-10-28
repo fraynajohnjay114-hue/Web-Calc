@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border: 5px solid #0a0a0a;
+    width: 50%;
+    height: 500px;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 20px;
+    border: 5px solid #0a0a0a;
+    margin-top: 10px;
+    height: 400px;
+    width: 400px;
+}
